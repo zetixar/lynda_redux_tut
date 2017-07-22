@@ -24,3 +24,20 @@ export const errors = (state=[], action) => {
       return state
   }
 }
+
+export const allSkiDays = (state=[], action) => {
+  switch(action.type) {
+    case C.ADD_DAY:
+      const hadDay = state.some(skiDay => skiDay.date === action.payload.date)
+      return (hadDay) ?
+        state :
+        [
+          ...state,
+          skiDay(null, action)
+        ]
+    case C.REMOVE_DAY:
+      return state.filter(skiDay => skiDay.date !== action.payload)
+    default:
+      return state
+  }
+}
