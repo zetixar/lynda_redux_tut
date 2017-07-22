@@ -1,0 +1,28 @@
+{
+  "allSkyDays": [
+    {
+      "resort": "Kirkwood",
+      "date": "2017-07-22",
+      "powder": true,
+      "backcountry": false,
+    },
+    {
+      "resort": "Squaw Vally",
+      "date": "2017e-07-21",
+      "powder": false,
+      "backcountry": false,
+    },
+    {
+      "resort": "Mt Tallac",
+      "date": "2017-07-20",
+      "powder": false,
+      "backcountry": true,
+    },
+  ],
+  "goal": 10,
+  "errors": [],
+  "resortNames": {
+    "fetching": false,
+    "suggestions": ["Squaw Valley", "Snowbird", "Stow", "Steamboat"],
+  },
+}

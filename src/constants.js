@@ -9,3 +9,5 @@ const constants = {
   CHANGE_SUGGESTIONS: 'CHANGE_SUGGESTIONS'
   CLEAR_SUGGESTIONS:  'CLEAR_SUGGESTIONS'
 }
+
+export default constants
